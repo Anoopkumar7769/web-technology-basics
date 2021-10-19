@@ -1,0 +1,29 @@
+{
+    "employee": [
+      {
+        "id": 1,
+        "name": "Abhi",
+        "emailid": "abhi@gmail.com"
+      },
+      {
+        "id": 2,
+        "name": "Rocky",
+        "emailid": "rocky@gmail.com"
+      },
+      {
+        "id": 3,
+        "name": "Brocky",
+        "emailid": "brocky@gmail.com"
+      },
+      {
+        "name": "Abhishek b k",
+        "emailid": "abhibk1@gmail.com",
+        "id": 4
+      },
+      {
+        "name": "Neptis",
+        "emailid": "abhibk2000@gmail.com",
+        "id": 5
+      }
+    ]
+  }

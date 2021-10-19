@@ -1,0 +1,13 @@
+header{
+    font-size: 50px;
+    text-align: center;
+}
+
+img{
+    float: left;
+    width: 550px;
+    height: 550px;
+    margin: 1.66%;
+    display: flex;
+    object-fit: cover;
+}

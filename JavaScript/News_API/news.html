@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<script>
+    function getNews(){
+        fetch('https://newsapi.org/v2/everything?q=apple&from=2021-10-13&to=2021-10-13&sortBy=popularity&apiKey=6aa2c474003e460b94dc2e4479d45fd2')
+        .then(a => a.json())
+        .then(response => {
+            for(var i = 0;i < response.articles.length;i++){
+                document.getElementById("output").innerHTML+="<div style='padding-top:20px;'><img style='float:left;width:150px;'
+                    src="'+response.articles[i].urlToImage+'"><h1>"+response.articles[i].title+"</h1>"s+response.
+                    articles[i].sourse.name+"<br>"+response.article[i].description+"<a href
+            }
+        })
+    }
+</script>
